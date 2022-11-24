@@ -10,6 +10,19 @@ body {
   padding: 0 15px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.page-header {
+  border-bottom: 1px solid #ececec;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 24px 0;
+}
+
 .logo {
   text-decoration: none;
   color: #000;
@@ -19,13 +32,27 @@ body {
   font-size: 1.625rem;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  padding: 0;
 }
 
 .highlight {
   color: #2196f3;
 }
 
-.nav-link {
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding-left: 0;
+}
+
+.menu > .item:not(:last-child) {
+  margin-right: 47px;
+}
+
+.menu .nav-link {
+  display: block;
   text-decoration: none;
   font-weight: 500;
   font-size: 0.875rem;
@@ -38,7 +65,21 @@ body {
   color: #2196f3;
 }
 
-.contact-link {
+.contact {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding-left: 0;
+}
+
+.contact > .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contact .contact-link {
+  display: block;
+  justify-content: space-between;
   text-decoration: none;
   font-weight: 500;
   font-size: 0.875rem;
