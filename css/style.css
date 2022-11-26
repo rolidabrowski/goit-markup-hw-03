@@ -132,7 +132,7 @@ body {
 
 .advantages-list {
   list-style: none;
-  margin: 0;
+  margin: 0 15px;
   padding: 0;
   display: flex;
 }
