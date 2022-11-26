@@ -11,8 +11,7 @@ body {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px 0;
 }
 
 .page-header {
@@ -131,12 +130,25 @@ body {
   margin-top: 30px;
 }
 
+.advantages-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.advantages-list > .advantages-item:not(:last-child) {
+  padding-right: 30px;
+}
+
 .advantages {
   font-weight: 700;
   font-size: 0.875rem;
   line-height: 1.15;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 .text {
@@ -144,6 +156,9 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #757575;
+  margin: 0;
+  width: 270px;
+  height: 75px;
 }
 
 .titles {
