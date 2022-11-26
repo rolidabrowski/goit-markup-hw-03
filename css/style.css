@@ -166,6 +166,7 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
+  padding-bottom: 94px;
 }
 
 .offer-text {
@@ -190,11 +191,14 @@ body {
   padding-right: 30px;
 }
 
-.team-wrapper {
+.team {
   background-color: #f5f4fa;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.team {
+.team-text {
   font-weight: 700;
   font-size: 2.25rem;
   line-height: 1.2;
@@ -204,6 +208,37 @@ body {
   margin: 0;
 }
 
+.team-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-top: 50px;
+}
+
+.team-list > .team-item:not(:last-child) {
+  padding-right: 30px;
+}
+
+.name-card {
+  margin: 0;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-box {
+  background-color: #fff;
+  display: block;
+  text-align: center;
+  margin: 0;
+  width: 270px;
+  padding: 30px 0;
+}
+
 .name-text {
   font-weight: 500;
   font-size: 1rem;
@@ -211,15 +246,12 @@ body {
   letter-spacing: 0.03em;
 }
 
-.name-box {
-  background-color: #fff;
-}
-
 .profession-text {
   font-size: 1rem;
-  line-height: 1.2;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-top: 10px;
 }
 
 .location-link {
