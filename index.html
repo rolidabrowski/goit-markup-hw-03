@@ -21,27 +21,31 @@
     <link href="./css/style.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="container page-header">
-      <a class="logo" href="./index.html"><span class="highlight">Web</span>Studio</a>
-      <nav>
-        <ul class="menu">
-          <li class="item"><a class="nav-link" href="#">Agencja</a></li>
-          <li class="item"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
-          <li class="item"><a class="nav-link" href="#">Kontakt</a></li>
+    <header class="header-bg">
+      <section class="container page-header">
+        <a class="logo" href="./index.html"><span class="highlight">Web</span>Studio</a>
+        <nav>
+          <ul class="menu">
+            <li class="item"><a class="nav-link" href="#">Agencja</a></li>
+            <li class="item"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+            <li class="item"><a class="nav-link" href="#">Kontakt</a></li>
+          </ul>
+        </nav>
+        <ul class="contact">
+          <li class="item">
+            <a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="item"><a class="contact-link" href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
-      </nav>
-      <ul class="contact">
-        <li class="item">
-          <a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li class="item"><a class="contact-link" href="tel:+48111111111">+48 111 111 111</a></li>
-      </ul>
-    </header>
-    <main>
-      <section class="container hero-box">
-        <h1 class="hero-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button class="button-hero" type="button">Zamów Usługę</button>
       </section>
+    </header>
+    <main class="main-bg">
+      <div class="hero-bg">
+        <section class="container hero-box">
+          <h1 class="hero-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+          <button class="button-hero" type="button">Zamów Usługę</button>
+        </section>
+      </div>
       <section class="container section">
         <ul class="advantages-list">
           <li class="advantages-item">
@@ -111,85 +115,89 @@
           </li>
         </ul>
       </section>
-      <section class="container section team">
-        <h2 class="team-text">Nasz zespół</h2>
-        <ul class="team-list">
-          <li class="team-item">
-            <figure class="name-card">
-              <img
-                src="images/main/team/johndoe1.jpg"
-                alt="Zdjęcie johndoe1"
-                width="270"
-                height="260"
-              />
-              <figcaption class="name-box">
-                <div class="name-text">John Doe</div>
-                <div class="profession-text">Product Designer</div>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="team-item">
-            <figure class="name-card">
-              <img
-                src="images/main/team/johndoe2.jpg"
-                alt="Zdjęcie johndoe2"
-                width="270"
-                height="260"
-              />
-              <figcaption class="name-box">
-                <div class="name-text">John Doe</div>
-                <div class="profession-text">Frontend Developer</div>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="team-item">
-            <figure class="name-card">
-              <img
-                src="images/main/team/johndoe3.jpg"
-                alt="Zdjęcie johndoe4"
-                width="270"
-                height="260"
-              />
-              <figcaption class="name-box">
-                <div class="name-text">John Doe</div>
-                <div class="profession-text">Marketing</div>
-              </figcaption>
-            </figure>
-          </li>
-          <li class="team-item">
-            <figure class="name-card">
-              <img
-                src="images/main/team/johndoe4.jpg"
-                alt="Zdjęcie johndoe4"
-                width="270"
-                height="260"
-              />
-              <figcaption class="name-box">
-                <div class="name-text">John Doe</div>
-                <div class="profession-text">UI Designer</div>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-      </section>
+      <div class="team-bg">
+        <section class="container section team">
+          <h2 class="team-text">Nasz zespół</h2>
+          <ul class="team-list">
+            <li class="team-item">
+              <figure class="name-card">
+                <img
+                  src="images/main/team/johndoe1.jpg"
+                  alt="Zdjęcie johndoe1"
+                  width="270"
+                  height="260"
+                />
+                <figcaption class="name-box">
+                  <div class="name-text">John Doe</div>
+                  <div class="profession-text">Product Designer</div>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="team-item">
+              <figure class="name-card">
+                <img
+                  src="images/main/team/johndoe2.jpg"
+                  alt="Zdjęcie johndoe2"
+                  width="270"
+                  height="260"
+                />
+                <figcaption class="name-box">
+                  <div class="name-text">John Doe</div>
+                  <div class="profession-text">Frontend Developer</div>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="team-item">
+              <figure class="name-card">
+                <img
+                  src="images/main/team/johndoe3.jpg"
+                  alt="Zdjęcie johndoe4"
+                  width="270"
+                  height="260"
+                />
+                <figcaption class="name-box">
+                  <div class="name-text">John Doe</div>
+                  <div class="profession-text">Marketing</div>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="team-item">
+              <figure class="name-card">
+                <img
+                  src="images/main/team/johndoe4.jpg"
+                  alt="Zdjęcie johndoe4"
+                  width="270"
+                  height="260"
+                />
+                <figcaption class="name-box">
+                  <div class="name-text">John Doe</div>
+                  <div class="profession-text">UI Designer</div>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
-    <footer class="container page-footer">
-      <a class="logo-footer" href="./index.html"><span class="highlight">Web</span>Studio</a>
-      <address>
-        <ul class="footer-list">
-          <li class="footer-item">
-            <a class="location-link" href="https://goo.gl/maps/TgxnZgFD9Zsh1wPW7" target="_blank">
-              m. Warszawa, Aleje Jerozolimskie 21
-            </a>
-          </li>
-          <li class="footer-item">
-            <a class="link-footer" href="mailto:info@example.com">info@example.com</a>
-          </li>
-          <li class="footer-item">
-            <a class="link-footer" href="tel:+48111111111">+48 111 111 111</a>
-          </li>
-        </ul>
-      </address>
+    <footer class="footer-bg">
+      <section class="container page-footer">
+        <a class="logo-footer" href="./index.html"><span class="highlight">Web</span>Studio</a>
+        <address>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a class="location-link" href="https://goo.gl/maps/TgxnZgFD9Zsh1wPW7" target="_blank">
+                m. Warszawa, Aleje Jerozolimskie 21
+              </a>
+            </li>
+            <li class="footer-item">
+              <a class="link-footer" href="mailto:info@example.com">info@example.com</a>
+            </li>
+            <li class="footer-item">
+              <a class="link-footer" href="tel:+48111111111">+48 111 111 111</a>
+            </li>
+          </ul>
+        </address>
+      </section>
     </footer>
   </body>
 </html>

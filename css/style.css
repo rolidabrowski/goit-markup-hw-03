@@ -1,7 +1,9 @@
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
-  background: #fff;
+  background: #ececec;
   color: #212121;
+  width: 1600px;
+  margin: 0 auto;
 }
 
 .container {
@@ -14,7 +16,12 @@ body {
   padding: 94px 0;
 }
 
+.header-bg {
+  background: #fff;
+}
+
 .page-header {
+  background: #fff;
   border-bottom: 1px solid #ececec;
   display: flex;
   align-items: center;
@@ -89,6 +96,14 @@ body {
 .contact-link:hover,
 .contact-link:focus {
   color: #2196f3;
+}
+
+.main-bg {
+  background: #fff;
+}
+
+.hero-bg {
+  background-color: #2f303a;
 }
 
 .hero-box {
@@ -191,6 +206,10 @@ body {
   padding-right: 30px;
 }
 
+.team-bg {
+  background-color: #f5f4fa;
+}
+
 .team {
   background-color: #f5f4fa;
   align-items: center;
@@ -251,6 +270,10 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 10px;
+}
+
+.footer-bg {
+  background-color: #2f303a;
 }
 
 .page-footer {
