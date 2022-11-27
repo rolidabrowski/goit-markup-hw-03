@@ -378,11 +378,28 @@ body {
   margin-top: 34px;
 }
 
+.portfolio-card {
+  background: #fff;
+  margin: 0;
+}
+
+.middle {
+  vertical-align: middle;
+}
+
+.portfolio-text {
+  display: block;
+  padding: 20px 24px;
+  border: 1px solid #eee;
+  border-top: transparent;
+}
+
 .brand {
   font-weight: 700;
   font-size: 1.125rem;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 4px;
 }
 
 .type {
