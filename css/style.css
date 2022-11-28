@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
-  background: #ececec;
-  color: #212121;
+  background: rgb(236, 236, 236);
+  color: rgb(33, 33, 33);
   width: 1600px;
   margin: 0 auto;
 }
@@ -18,7 +18,7 @@ body {
 
 .header-bg {
   background: #fff;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid rgb(236, 236, 236);
 }
 
 .page-header {
@@ -29,7 +29,7 @@ body {
 
 .logo {
   text-decoration: none;
-  color: #000;
+  color: rgb(0, 0, 0);
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -40,7 +40,7 @@ body {
 }
 
 .highlight {
-  color: #2196f3;
+  color: rgb(33, 150, 243);
 }
 
 .menu {
@@ -66,7 +66,7 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #2196f3;
+  color: rgb(33, 150, 243);
 }
 
 .contact {
@@ -89,24 +89,24 @@ body {
   font-size: 0.875rem;
   line-height: 1.15;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: rgb(117, 117, 117);
 }
 
 .contact-link:hover,
 .contact-link:focus {
-  color: #2196f3;
+  color: rgb(33, 150, 243);
 }
 
 .main-bg {
-  background: #fff;
+  background: rgb(255, 255, 255);
 }
 
 .hero-bg {
-  background-color: #2f303a;
+  background-color: rgb(47, 48, 58);
 }
 
 .hero-box {
-  background-color: #2f303a;
+  background-color: rgb(47, 48, 58);
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -120,7 +120,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #fff;
+  color: rgb(255, 255, 255);
   display: block;
   width: 696px;
   height: 120px;
@@ -133,10 +133,10 @@ body {
   line-height: 1.9;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: #2196f3;
+  color: rgb(255, 255, 255);
+  background-color: rgb(33, 150, 243);
   cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.149);
   border-radius: 4px;
   display: block;
   width: 200px;
@@ -170,7 +170,7 @@ body {
   font-size: 0.875rem;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: rgb(117, 117, 117);
   margin: 0;
   width: 270px;
   height: 75px;
@@ -206,11 +206,11 @@ body {
 }
 
 .team-bg {
-  background-color: #f5f4fa;
+  background-color: rgb(245, 244, 250);
 }
 
 .team {
-  background-color: #f5f4fa;
+  background-color: rgb(245, 244, 250);
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -240,7 +240,7 @@ body {
 
 .name-card {
   margin: 0;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -267,16 +267,16 @@ body {
   font-size: 1rem;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: rgb(117, 117, 117);
   margin-top: 10px;
 }
 
 .footer-bg {
-  background-color: #2f303a;
+  background-color: rgb(47, 48, 58);
 }
 
 .page-footer {
-  background-color: #2f303a;
+  background-color: rgb(47, 48, 58);
   display: flex;
   flex-direction: column;
   padding: 60px 0;
@@ -290,7 +290,7 @@ body {
   font-size: 1.625rem;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #fff;
+  color: rgb(255, 255, 255);
   display: block;
   width: 145px;
   margin-left: 215px;
@@ -309,7 +309,7 @@ body {
   font-size: 0.875rem;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .footer-item {
@@ -326,12 +326,12 @@ body {
   font-size: 0.875rem;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #ffffff80;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .link-footer:hover,
 .link-footer:focus {
-  color: #2196f3;
+  color: rgb(33, 150, 243);
 }
 
 .filter-menu {
@@ -352,7 +352,7 @@ body {
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: #f5f4fa;
+  background-color: rgb(245, 244, 250);
   cursor: pointer;
   border-radius: 4px;
   border-style: none;
@@ -361,8 +361,8 @@ body {
 
 .filter-button:hover,
 .filter-button:focus {
-  background-color: #2196f3;
-  color: #fff;
+  background-color: rgb(33, 150, 243);
+  color: rgb(255, 255, 255);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -379,7 +379,7 @@ body {
 }
 
 .portfolio-card {
-  background: #fff;
+  background: rgb(255, 255, 255);
   margin: 0;
 }
 
@@ -390,7 +390,7 @@ body {
 .portfolio-text {
   display: block;
   padding: 20px 24px;
-  border: 1px solid #eee;
+  border: 1px solid rgb(238, 238, 238);
   border-top: transparent;
 }
 
@@ -406,5 +406,5 @@ body {
   font-size: 1rem;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: rgb(117, 117, 117);
 }
