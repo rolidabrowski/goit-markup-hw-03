@@ -82,10 +82,6 @@ body {
   color: var(--color-blue);
 }
 
-.nav-link:active {
-  color: var(--color-blue);
-}
-
 .contact {
   list-style: none;
   display: flex;
