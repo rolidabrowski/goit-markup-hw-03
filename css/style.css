@@ -1,6 +1,24 @@
+:root {
+  --color-blue: rgb(33, 150, 243);
+  --color-white: rgb(255, 255, 255);
+  --color-black: rgb(0, 0, 0);
+  --color-grey-text: rgb(117, 117, 117);
+  --color-grey-background: rgb(47, 48, 58);
+  --color-white-backgrund: rgb(245, 244, 250);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
-  background: rgb(236, 236, 236);
+  background-color: var(--color-white);
   color: rgb(33, 33, 33);
 }
 
@@ -15,7 +33,7 @@ body {
 }
 
 .header-bg {
-  background: #fff;
+  background-color: var(--color-white);
   border-bottom: 1px solid rgb(236, 236, 236);
 }
 
@@ -26,26 +44,23 @@ body {
 }
 
 .logo {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: var(--color-black);
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 1.625rem;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  padding: 0;
 }
 
 .highlight {
-  color: rgb(33, 150, 243);
+  color: var(--color-blue);
 }
 
 .menu {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  margin: 0;
   padding-left: 93px;
 }
 
@@ -53,9 +68,8 @@ body {
   padding-right: 47px;
 }
 
-.menu .nav-link {
+.nav-link {
   display: block;
-  text-decoration: none;
   font-weight: 500;
   font-size: 0.875rem;
   line-height: 1.15;
@@ -64,14 +78,21 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: rgb(33, 150, 243);
+  color: var(--color-blue);
+}
+
+.nav-link:active {
+  color: var(--color-blue);
+}
+
+.nav-link:visited {
+  color: var(--color-black);
 }
 
 .contact {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  margin: 0;
   padding-left: 371px;
 }
 
@@ -82,29 +103,28 @@ body {
 .contact .contact-link {
   display: block;
   justify-content: space-between;
-  text-decoration: none;
   font-weight: 500;
   font-size: 0.875rem;
   line-height: 1.15;
   letter-spacing: 0.02em;
-  color: rgb(117, 117, 117);
+  color: var(--color-grey-text);
 }
 
 .contact-link:hover,
 .contact-link:focus {
-  color: rgb(33, 150, 243);
+  color: var(--color-blue);
 }
 
 .main-bg {
-  background: rgb(255, 255, 255);
+  background: var(--color-white);
 }
 
 .hero-bg {
-  background-color: rgb(47, 48, 58);
+  background-color: var(--color-grey-background);
 }
 
 .hero-box {
-  background-color: rgb(47, 48, 58);
+  background-color: var(--color-grey-background);
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -118,11 +138,10 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: rgb(255, 255, 255);
+  color: var(--color-white);
   display: block;
   width: 696px;
   height: 120px;
-  margin: 0;
 }
 
 .button-hero {
@@ -131,8 +150,8 @@ body {
   line-height: 1.9;
   text-align: center;
   letter-spacing: 0.06em;
-  color: rgb(255, 255, 255);
-  background-color: rgb(33, 150, 243);
+  color: var(--color-white);
+  background-color: var(--color-blue);
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.149);
   border-radius: 4px;
@@ -146,7 +165,6 @@ body {
 .advantages-list {
   list-style: none;
   margin: 0 15px;
-  padding: 0;
   display: flex;
 }
 
@@ -160,7 +178,6 @@ body {
   line-height: 1.15;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin: 0;
   margin-bottom: 10px;
 }
 
@@ -168,8 +185,7 @@ body {
   font-size: 0.875rem;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: rgb(117, 117, 117);
-  margin: 0;
+  color: var(--color-grey-text);
   width: 270px;
   height: 75px;
 }
@@ -188,13 +204,10 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   display: block;
-  margin: 0;
 }
 
 .offer-list {
   list-style: none;
-  margin: 0;
-  padding: 0;
   display: flex;
   margin-top: 50px;
 }
@@ -204,11 +217,11 @@ body {
 }
 
 .team-bg {
-  background-color: rgb(245, 244, 250);
+  background-color: var(--color-white-backgrund);
 }
 
 .team {
-  background-color: rgb(245, 244, 250);
+  background-color: var(--color-white-backgrund);
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -221,13 +234,10 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   display: block;
-  margin: 0;
 }
 
 .team-list {
   list-style: none;
-  margin: 0;
-  padding: 0;
   display: flex;
   margin-top: 50px;
 }
@@ -237,8 +247,7 @@ body {
 }
 
 .name-card {
-  margin: 0;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--color-white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -250,7 +259,6 @@ body {
 .name-box {
   display: block;
   text-align: center;
-  margin: 0;
   padding: 30px 0;
 }
 
@@ -265,30 +273,29 @@ body {
   font-size: 1rem;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: rgb(117, 117, 117);
+  color: var(--color-grey-text);
   margin-top: 10px;
 }
 
 .footer-bg {
-  background-color: rgb(47, 48, 58);
+  background-color: var(--color-grey-background);
 }
 
 .page-footer {
-  background-color: rgb(47, 48, 58);
+  background-color: var(--color-grey-background);
   display: flex;
   flex-direction: column;
   padding: 60px 0;
 }
 
 .logo-footer {
-  text-decoration: none;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 1.625rem;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: rgb(255, 255, 255);
+  color: var(--color-white);
   display: block;
   width: 145px;
   margin-left: 215px;
@@ -299,15 +306,13 @@ body {
   display: block;
   width: 246px;
   margin: 20px 0 0 215px;
-  padding: 0;
 }
 
 .location-link {
-  text-decoration: none;
   font-size: 0.875rem;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: rgb(255, 255, 255);
+  color: var(--color-white);
 }
 
 .footer-item {
@@ -320,7 +325,6 @@ body {
 }
 
 .link-footer {
-  text-decoration: none;
   font-size: 0.875rem;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -329,7 +333,7 @@ body {
 
 .link-footer:hover,
 .link-footer:focus {
-  color: rgb(33, 150, 243);
+  color: var(--color-blue);
 }
 
 .filter-menu {
@@ -350,7 +354,7 @@ body {
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: rgb(245, 244, 250);
+  background-color: var(--color-white-backgrund);
   cursor: pointer;
   border-radius: 4px;
   border-style: none;
@@ -359,8 +363,8 @@ body {
 
 .filter-button:hover,
 .filter-button:focus {
-  background-color: rgb(33, 150, 243);
-  color: rgb(255, 255, 255);
+  background-color: var(--color-blue);
+  color: var(--color-white);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -377,8 +381,7 @@ body {
 }
 
 .portfolio-card {
-  background: rgb(255, 255, 255);
-  margin: 0;
+  background: var(--color-white);
 }
 
 .middle {
@@ -404,5 +407,5 @@ body {
   font-size: 1rem;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  color: rgb(117, 117, 117);
+  color: var(--color-grey-text);
 }
