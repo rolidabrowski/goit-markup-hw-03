@@ -74,6 +74,7 @@ body {
   font-size: 0.875rem;
   line-height: 1.15;
   letter-spacing: 0.02em;
+  color: var(--color-black);
 }
 
 .nav-link:hover,
@@ -83,10 +84,6 @@ body {
 
 .nav-link:active {
   color: var(--color-blue);
-}
-
-.nav-link:visited {
-  color: var(--color-black);
 }
 
 .contact {
